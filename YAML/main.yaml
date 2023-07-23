@@ -1,0 +1,16 @@
+# YAML means YAML AINT MARKUP LANGUAGE
+# Web server configuration
+
+info:
+  version: "1.0.0"
+  website: "http://www.example.com"
+
+database:
+  type: "sqlite"
+  path: /var/db/server.
+
+routes:
+  - path: /api
+    methods: [ GET, POST ]
+  - path: /admin
+    methods: [ GET ]
